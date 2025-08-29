@@ -1,0 +1,66 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #ffa500; /* оранжевый */
+  padding: 20px;
+}
+
+/* Заголовок */
+header .title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.romchik {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.metroshop {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+/* Контентные блоки */
+.block {
+  background-color: #111;
+  border: 2px solid #ffa500;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.block h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Кнопка */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ffa500;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff8c00;
+}
+
